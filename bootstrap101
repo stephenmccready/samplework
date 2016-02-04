@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap 101</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <style>
+  .col {border: 1px dotted silver; text-align: center;}
+  </style>
+</head>
+<body>
+<div class="container">
+	<h2>Bootstrap 101</h2>
+	<p><b>&ltdiv class="container"&gt</b> : a responsive fixed width container</p>
+	<p><b>&ltdiv class="container-fluid"&gt</b> : full width container</p>
+<hr>
+	<p><h3>12 Column Grid System Classes:</h3>
+	<b>.row &nbsp; .col-xx-#</b></p>
+	Where xx = <br />
+	<ul>
+		<li>xs (for phones)</li>
+		<li>sm (for tablets)</li>
+		<li>md (for desktops)</li>
+		<li>lg (for larger desktops)</li>
+	</ul>
+	<p>Examples: <i>(12, 6, 4, 3, 2 and 1 columns of the same width)</i></p>
+	<div class="row">
+	  <div class="col-sm-1 col">.col-sm-1</div>
+	  <div class="col-sm-1 col">.col-sm-1</div>
+	  <div class="col-sm-1 col">.col-sm-1</div>
+	  <div class="col-sm-1 col">.col-sm-1</div>
+	  <div class="col-sm-1 col">.col-sm-1</div>
+	  <div class="col-sm-1 col">.col-sm-1</div>
+	  <div class="col-sm-1 col">.col-sm-1</div>
+	  <div class="col-sm-1 col">.col-sm-1</div>
+	  <div class="col-sm-1 col">.col-sm-1</div>
+	  <div class="col-sm-1 col">.col-sm-1</div>
+	  <div class="col-sm-1 col">.col-sm-1</div>
+	  <div class="col-sm-1 col">.col-sm-1</div>
+	</div>
+	<div class="row">
+	  <div class="col-sm-2 col">.col-sm-2</div>
+	  <div class="col-sm-2 col">.col-sm-2</div>
+	  <div class="col-sm-2 col">.col-sm-2</div>
+	  <div class="col-sm-2 col">.col-sm-2</div>
+	  <div class="col-sm-2 col">.col-sm-2</div>
+	  <div class="col-sm-2 col">.col-sm-2</div>
+	</div>
+	<div class="row">
+	  <div class="col-sm-3 col">.col-sm-3</div>
+	  <div class="col-sm-3 col">.col-sm-3</div>
+	  <div class="col-sm-3 col">.col-sm-3</div>
+	  <div class="col-sm-3 col">.col-sm-3</div>
+	</div>
+	<div class="row">
+	  <div class="col-sm-4 col">.col-sm-4</div>
+	  <div class="col-sm-4 col">.col-sm-4</div>
+	  <div class="col-sm-4 col">.col-sm-4</div>
+	</div>
+	<div class="row">
+	  <div class="col-sm-6 col">.col-sm-6</div>
+	  <div class="col-sm-6 col">.col-sm-6</div>
+	</div>
+	<div class="row">
+	  <div class="col-sm-12 col">.col-sm-12</div>
+	</div><br />
+	<p>Examples: <i>(Unequal column widths)</i></p>
+	<div class="row">
+	  <div class="col-sm-4 col">.col-sm-4</div>
+	  <div class="col-sm-8 col">.col-sm-8</div>
+	</div>
+	<div class="row">
+	  <div class="col-sm-3 col">.col-sm-3</div>
+	  <div class="col-sm-3 col">.col-sm-3</div>
+	  <div class="col-sm-6 col">.col-sm-6</div>
+	</div>
+	<div class="row">
+	  <div class="col-sm-6 col">.col-sm-6</div>
+	  <div class="col-sm-3 col">.col-sm-3</div>
+	  <div class="col-sm-2 col">.col-sm-2</div>
+	  <div class="col-sm-1 col">.col-sm-1</div>
+	</div><br />
+<hr>
+	<p><h3>Typography Classes:</h3>
+	<b><span class="text-primary">.text-primary</span> &nbsp; <span class="text-success">.text-success</span> &nbsp; <span class="text-info">.text-info</span> &nbsp; <span class="text-warning">.text-warning</span> &nbsp; <span class="text-danger">.text-danger</span> &nbsp; <span class="text-muted">.text-muted</span></b></p>
+	<b><span class="bg-primary">.bg-primary</span> &nbsp; <span class="bg-success">.bg-success</span> &nbsp; <span class="bg-info">.bg-info</span> &nbsp; <span class="bg-warning">.bg-warning</span> &nbsp; <span class="bg-danger">.bg-danger</span></b></p>
+	<b>.blockquote-reverse</b>
+	  <p>The <b>&ltsmall&gt</b> element is used to create a lighter, secondary text in any heading:</p>       
+	  <h4>h4 heading <small>secondary text</small></h4>
+	  <h5>h5 heading <small>secondary text</small></h5>
+	  <h6>h6 heading <small>secondary text</small></h6>
+	
+	<p>Use the <b>&ltmark&gt</b> element to <mark>highlight</mark> text.</p>
+	<p>Use abbr thus: The <abbr title="World Health Organization">WHO</abbr> was founded in 1948.</p>
+	<p>The blockquote element is used to present content from another source:</p>
+		<blockquote>
+		<p>I have a dream that one day this nation will rise up and live out the true meaning of its creed: "We hold these truths to be self-evident, that all men are created equal."</p>
+		<footer>Martin Luther King, Jr.</footer>
+		</blockquote>
+	<p>To show the quote on the right use the class <b>.blockquote-reverse</b>:</p>
+		<blockquote class="blockquote-reverse">
+		<p>I have a dream that one day on the red hills of Georgia, the sons of former slaves and the sons of former slave owners will be able to sit down together at the table of brotherhood.</p>
+		<footer>Martin Luther King, Jr.</footer>
+		</blockquote>
+	<p>The <b>&ltdl&gt</b> element indicates a description list:</p>
+		<dl>
+			<dt>Coffee</dt>
+			<dd>- black hot drink</dd>
+			<dt>Milk</dt>
+			<dd>- white cold drink</dd>
+		</dl>
+	<p>Inline snippets of <b>&ltcode&gt</b> should be embedded in the code element:</p>
+		<p>The following HTML elements: <code>span</code>, <code>section</code>, and <code>div</code> defines a section in a document.</p>
+	<p>For multiple lines of code, use the <b>&ltpre&gt</b> element:</p>
+		<pre>
+		Text in a pre element
+		is displayed in a fixed-width
+		font, and it preserves
+		both      spaces and
+		line breaks.</pre>
+	<p>To indicate input that is typically entered via the keyboard, use the <b>&ltkbd&gt</b> element:</p>
+		<p>Use <kbd>ctrl + p</kbd> to open the Print dialog box.</p>
+<hr>
+	<p><h3>Table Classes:</h3>
+	<b>.table &nbsp; .table-striped &nbsp; .table-bordered  &nbsp; .table-hover &nbsp; .table-condensed &nbsp; .table-responsive</b><br /></p>
+	<div class="table-responsive">  
+	  <table class="table table-hover">
+		<thead>
+		  <tr>
+			<th>Class</th>
+			<th>Description</th>
+		  </tr>
+		</thead>
+		<tbody>
+		  <tr class="active">
+			<td>.active</td>
+			<td>Applies the hover color to the table row or table cell</td>
+		  </tr>
+		  <tr class="success">
+			<td>.success</td>
+			<td>Indicates a successful or positive action</td>
+		  </tr>
+		  <tr class="info">
+			<td>.info</td>
+			<td>Indicates a successful or positive action</td>
+		  </tr>
+		  <tr class="warning">
+			<td>.warning</td>
+			<td>Indicates a warning that might need attention</td>
+		  </tr>
+		  <tr class="danger">
+			<td>.danger</td>
+			<td>Indicates a dangerous or potentially negative action</td>
+		  </tr>
+		</tbody>
+	  </table>
+	</div>
+<hr>
+	<p><h3>Image Classes:</h3>
+	<b>.img-rounded &nbsp; .img-circle &nbsp; .img-thumbnail &nbsp; .img-responsive</b><br />
+	<b>.embed-responsive-item &nbsp; .embed-responsive-16by9 &nbsp; .embed-responsive-4by3</b></p>
+	 <div class="row">
+	  <div class="col-md-4">
+		<a href="http://www.w3schools.com/bootstrap/pulpitrock.jpg" class="thumbnail">
+		  <p>Rouned Corners</p>
+		  <img class="img-rounded" src="http://www.w3schools.com/bootstrap/pulpitrock.jpg" alt="Pulpit Rock" style="width:150px;height:150px">
+		</a>
+	  </div>
+	  <div class="col-md-4">
+		<a href="http://www.w3schools.com/bootstrap/moustiers-sainte-marie.jpg" class="thumbnail">
+		  <p>Circle</p>
+		  <img class="img-circle" src="http://www.w3schools.com/bootstrap/moustiers-sainte-marie.jpg" alt="Moustiers Sainte Marie" style="width:150px;height:150px">
+		</a>
+	  </div>
+	  <div class="col-md-4">
+		<a href="http://www.w3schools.com/bootstrap/cinqueterre.jpg" class="thumbnail">
+		  <p>Thumbnail</p>
+		  <img class="img-responsive" src="http://www.w3schools.com/bootstrap/cinqueterre.jpg" alt="Cinque Terre" style="width:150px;height:150px">
+		</a>
+	  </div>
+	</div>
+	  <h4>Responsive Embed</h4>
+	  <div class="embed-responsive embed-responsive-16by9">
+		<iframe class="embed-responsive-item" src="http://www.youtube.com/embed/mTdEu3BtNTI"></iframe>
+	  </div>
+<hr>
+	<p><h3>Jumbotron Classes:</h3>
+	<div class="jumbotron">
+		<h1>.jumbotron</h1>      
+		<p>This is some text.</p>
+	</div>
+	<div class="page-header">
+		<h4>.page-header</h4>      
+	</div>
+	  <p>This is some text.</p>      
+	  <p>This is another text.</p> 
+<hr>
+	<p><h3>Wells Classes:</h3>
+	<div class="well well-sm">.well &nbsp; .well-sm</div>
+	<div class="well">.well</div>
+	<div class="well well-lg">.well &nbsp; .well-lg</div>
+<hr>
+	<p><h3>Alert Classes:</h3>
+	  <div class="alert alert-success fade in">
+		<a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+		<strong>Success</strong> &nbsp; .close &nbsp; .alert &nbsp; .fade &nbsp; .in &nbsp; .alert-success
+	  </div>
+	  <div class="alert alert-info fade in">
+		<a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+		<strong>Info</strong> &nbsp; .close &nbsp; .alert &nbsp; .fade &nbsp; .in &nbsp; .alert-info
+	  </div>
+	  <div class="alert alert-warning fade in">
+		<a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+		<strong>Warning</strong> &nbsp; .close &nbsp; .alert &nbsp; .fade &nbsp; .in &nbsp; .alert-warning
+	  </div>
+	  <div class="alert alert-danger fade in">
+		<a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+		<strong>Danger<strong> &nbsp; .close &nbsp; .alert &nbsp; .fade &nbsp; .in &nbsp; .alert-danger
+	  </div>
+<hr>
+	<p><h3>Button Classes:</h3>
+		<button type="button" class="btn btn-default btn-lg">btn-default [btn-lg]</button>
+		<button type="button" class="btn btn-primary btn-md">btn-primary [btn-md]</button>
+		<button type="button" class="btn btn-success btn-sm">btn-success [btn-sm]</button>
+		<button type="button" class="btn btn-info btn-xs">btn-info [btn-xs]</button>
+		<button type="button" class="btn btn-warning">btn-warning</button>
+		<button type="button" class="btn btn-danger">btn-danger</button>
+		<button type="button" class="btn btn-link">btn-link</button> 
+	  
+	  
+	  
+	  
+	  
+	  
+</div>
+</body>
+</html>
