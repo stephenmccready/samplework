@@ -10,17 +10,17 @@
   <style>
   .col {border: 1px dotted silver; text-align: center;}
   p {margin-top: 1.25em;}
+  hr {margin-top: 3.5em;}
   </style>
 </head>
 <body>
 <div class="container">
-	<h2>Bootstrap 101</h2>
-	<p><b>&ltdiv class="container"&gt</b> : a responsive fixed width container</p>
-	<p><b>&ltdiv class="container-fluid"&gt</b> : full width container</p>
+	<h1>Bootstrap 101</h1>
+	<p><b>&ltdiv class="container"&gt</b> : a responsive fixed width container</b></p>
+	<p><b>&ltdiv class="container-fluid"&gt</b> : full width container</b></p>
 <hr>
-	<p><h3>12 Column Grid System Classes:</h3>
-            <b>.row &nbsp; .col-xx-#</b><br />
-	Where xx = xs (for phones), sm (for tablets), md (for desktops), lg (for larger desktops)</p>
+	<p><h2><span class="glyphicon glyphicon-bookmark"></span> 12 Column Grid System Classes:</h2>
+            <b>.row &nbsp; .col-xx-#</b> &nbsp; <i>where xx = xs (for phones), sm (for tablets), md (for desktops), lg (for larger desktops)</i></p>
 	<p>Examples: <i>(12, 6, 4, 3, 2 and 1 columns of the same width)</i></p>
 	<div class="row">
 	  <div class="col-sm-1 col">.col-sm-1</div>
@@ -79,13 +79,15 @@
 	  <div class="col-sm-1 col">.col-sm-1</div>
 	</div><br />
 <hr>
-	<p><h3>Typography Classes:</h3>
+	<p><h2><span class="glyphicon glyphicon-bookmark"></span> Typography Classes:</h2>
             <b><span class="text-primary">.text-primary</span> &nbsp; <span class="text-success">.text-success</span> &nbsp; <span class="text-info">.text-info</span> &nbsp; <span class="text-warning">.text-warning</span> &nbsp; <span class="text-danger">.text-danger</span> &nbsp; <span class="text-muted">.text-muted</span></b></p>
             <b><span class="bg-primary">.bg-primary</span> &nbsp; <span class="bg-success">.bg-success</span> &nbsp; <span class="bg-info">.bg-info</span> &nbsp; <span class="bg-warning">.bg-warning</span> &nbsp; <span class="bg-danger">.bg-danger</span></b></p>
-	  <p>The <b>&ltsmall&gt</b> element is used to create a lighter, secondary text in any heading:</p>       
-	  <h4>h4 heading <small>secondary text</small></h4>
-	  <h5>h5 heading <small>secondary text</small></h5>
-	  <h6>h6 heading <small>secondary text</small></h6>
+	<p>The <b>&ltsmall&gt</b> element is used to create a lighter, secondary text in any heading:</p>
+	<div class="well">
+		<h4>h4 heading <small>secondary text</small></h4>
+		<h5>h5 heading <small>secondary text</small></h5>
+		<h6>h6 heading <small>secondary text</small></h6>
+	</div>
 	
 	<p>Use the <b>&ltmark&gt</b> element to <mark>highlight</mark> text.</p>
 	<p>Use <b>&ltabbr&gt</b> thus: The <abbr title="World Health Organization">WHO</abbr> was founded in 1948.</p>
@@ -100,14 +102,18 @@
 		<footer>Martin Luther King, Jr.</footer>
 		</blockquote>
 	<p>The <b>&ltdl&gt</b> and <b>&ltdd&gt</b>elements indicates a description list and description detail:</p>
-		<dl>
-			<dt>Coffee</dt>
-			<dd>- black hot drink</dd>
-			<dt>Milk</dt>
-			<dd>- white cold drink</dd>
-		</dl>
+		<div class="well">
+			<dl>
+				<dt>Coffee</dt>
+				<dd>- black hot drink</dd>
+				<dt>Milk</dt>
+				<dd>- white cold drink</dd>
+			</dl>
+		</div>
 	<p>Inline snippets of <b>&ltcode&gt</b> should be embedded in the code element:</p>
-		<p>The following HTML elements: <code>span</code>, <code>section</code>, and <code>div</code> defines a section in a document.</p>
+		<div class="well">
+			<p>The following HTML elements: <code>span</code>, <code>section</code>, and <code>div</code> defines a section in a document.</p>
+		</div>
 	<p>For multiple lines of code, use the <b>&ltpre&gt</b> element:</p>
 		<pre>
 		Text in a pre element is displayed in a fixed-width
@@ -116,7 +122,7 @@
 	<p>To indicate input that is typically entered via the keyboard, use the <b>&ltkbd&gt</b> element:</p>
 		<p>Use <kbd>ctrl + p</kbd> to open the Print dialog box.</p>
 <hr>
-	<p><h3>Table Classes:</h3>
+	<p><h2><span class="glyphicon glyphicon-bookmark"></span> Table Classes:</h2>
             <b>.table &nbsp; .table-striped &nbsp; .table-bordered  &nbsp; .table-hover &nbsp; .table-condensed &nbsp; .table-responsive</b><br /></p>
 	<div class="table-responsive">  
 	  <table class="table table-hover">
@@ -151,7 +157,7 @@
 	  </table>
 	</div>
 <hr>
-	<p><h3>Image Classes:</h3>
+	<p><h2><span class="glyphicon glyphicon-bookmark"></span> Image Classes:</h2>
             <b>.embed-responsive-item &nbsp; .embed-responsive-16by9 &nbsp; .embed-responsive-4by3</b></p>
 	 <div class="row">
 	  <div class="col-md-4">
@@ -178,7 +184,7 @@
 		<iframe class="embed-responsive-item" src="http://www.youtube.com/embed/mTdEu3BtNTI"></iframe>
 	  </div>
 <hr>
-	<p><h3>Jumbotron Classes:</h3></p>
+	<p><h2><span class="glyphicon glyphicon-bookmark"></span> Jumbotron Classes:</h2></p>
 	<div class="jumbotron">
 		<h1>.jumbotron</h1>      
 		<p>This is some text.</p>
@@ -189,12 +195,12 @@
 	  <p>This is some text.</p>      
 	  <p>This is another text.</p> 
 <hr>
-	<p><h3>Wells Classes:</h3></p>
+	<p><h2><span class="glyphicon glyphicon-bookmark"></span> Wells Classes:</h2></p>
 	<div class="well well-sm">.well &nbsp; .well-sm</div>
 	<div class="well">.well</div>
 	<div class="well well-lg">.well &nbsp; .well-lg</div>
 <hr>
-	<p><h3>Alert Classes:</h3></p>
+	<p><h2><span class="glyphicon glyphicon-bookmark"></span> Alert Classes:</h2></p>
 	  <div class="alert alert-success fade in">
 		<a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
 		<strong>Success</strong> &nbsp; .close &nbsp; .alert &nbsp; .fade &nbsp; .in &nbsp; .alert-success
@@ -212,7 +218,7 @@
 		<strong>Danger<strong> &nbsp; .close &nbsp; .alert &nbsp; .fade &nbsp; .in &nbsp; .alert-danger
 	  </div>
 <hr>
-	<p><h3>Button Classes:</h3>
+	<p><h2><span class="glyphicon glyphicon-bookmark"></span> Button Classes:</h2>
             <b>.btn-group</b></p>
 		<button type="button" class="btn btn-default btn-lg">.btn-default [.btn-lg]</button>
 		<button type="button" class="btn btn-primary btn-md">.btn-primary [.btn-md]</button>
@@ -230,11 +236,11 @@
             </div>
 	<p>
             <b>.btn-group-vertical</b></p>
-            <div class="btn-group btn-group-vertical">
+            <div class="btn-group-vertical">
                 <button type="button" class="btn btn-primary">.btn .btn-primary</button>
                 <button type="button" class="btn btn-primary">.btn .btn-primary</button>
                 <button type="button" class="btn btn-primary">.btn .btn-primary</button>
-          </div>
+			</div>
 	<p>
             <b>.btn-group-justified</b></p>
             <div class="btn-group btn-group-justified">
@@ -270,36 +276,143 @@
             </div>
         </p>
 <hr>
-	<p><h3>Glyphicon Classes:</h3></p>
-        <p>.glyphicon .glyphicon-envelope: <span class="glyphicon glyphicon-envelope"></span></p>
-        <p>And as a link:
+	<p><h2><span class="glyphicon glyphicon-bookmark"></span> Glyphicon Classes:</h2></p>
+        <p>A span: .glyphicon .glyphicon-envelope: <span class="glyphicon glyphicon-envelope"></span></p>
+        <p>A link:
           <a href="#"><span class="glyphicon glyphicon-envelope"></span></a>
         </p>
-        <p>.glyphicon .glyphicon-search: <span class="glyphicon glyphicon-search"></span></p>
-        <p>And on a button:
+        <p>A button:
           <button type="button" class="btn btn-default">
             <span class="glyphicon glyphicon-search"></span> .glyphicon .glyphicon-search
           </button>
         </p>
-        <p>On a styled button:
+        <p>Styled buttons:
           <button type="button" class="btn btn-info">
             <span class="glyphicon glyphicon-search"></span> .glyphicon .glyphicon-search
           </button>
-        </p>
-        <p>.glyphicon .glyphicon-print: <span class="glyphicon glyphicon-print"></span></p>
-        <p>.glyphicon .glyphicon-print:
+		&nbsp;
+		.glyphicon .glyphicon-print: <span class="glyphicon glyphicon-print"></span>
+		&nbsp;.glyphicon .glyphicon-print:
           <a href="#" class="btn btn-success btn-lg">
             <span class="glyphicon glyphicon-print"></span> Print
           </a>
         </p>
 <hr>
-	<p><h3>Badge Classes:</h3></p>
+	<p><h2><span class="glyphicon glyphicon-bookmark"></span> Badge Classes:</h2></p>
+	Placed within &ltspan&gt tags, inside:<br /> 
+	Links: <a href="#">.badge <span class="badge">5</span></a> &nbsp; Buttons: <button type="button" class="btn btn-primary">.badge <span class="badge">7</span></button>
 <hr>
-	<p><h3>Label Classes:</h3></p>
+	<p><h2><span class="glyphicon glyphicon-bookmark"></span> Label Classes:</h2></p>
+	Placed within &ltspan&gt tags:<br /> 
+		<span class="label label-default">.label .label-default</span>
+		<span class="label label-primary">.label .label-primary</span>
+		<span class="label label-success">.label .label-success</span>
+		<span class="label label-info">.label .label-info</span>
+		<span class="label label-warning">.label .label-warning</span>
+		<span class="label label-danger">.label .label-danger</span>
 <hr>
-	<p><h3>Progress Bar Classes:</h3></p>
-        
-        
+	<p><h2><span class="glyphicon glyphicon-bookmark"></span> Progress Bar Classes:</h2>
+        <b>.progress &nbsp; .sr-only &nbsp; aria-valuenow="xx" &nbsp; aria-valuemin="0" &nbsp; aria-valuemax="100"</b></p>
+        <div class="progress">
+			<div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="40"
+			aria-valuemin="0" aria-valuemax="100" style="width:40%">
+			40% Complete (.progress-bar .progress-bar-success)
+			</div>
+		</div>
+		<div class="progress">
+			<div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="50"
+			aria-valuemin="0" aria-valuemax="100" style="width:50%">
+			<span class="sr-only">50% Complete</span> (.progress-bar .progress-bar-info .sr-only)
+			</div>
+		</div>
+		<div class="progress">
+			<div class="progress-bar progress-bar-warning progress-bar-striped" role="progressbar" aria-valuenow="60"
+			aria-valuemin="0" aria-valuemax="100" style="width:60%">
+			60% Complete (.progress-bar .progress-bar-warning .progress-bar-striped)
+			</div>
+		</div>
+		<div class="progress">
+			<div class="progress-bar progress-bar-danger progress-bar-striped active" role="progressbar" aria-valuenow="70"
+			aria-valuemin="0" aria-valuemax="100" style="width:70%">
+			70% Complete (.progress-bar .progress-bar-danger .progress-bar-striped .active)
+			</div>
+		</div>
+		<p><b>role="progressbar"</b></p>
+		<div class="progress">
+			<div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="30" style="width:30%">
+			progress-bar progress-bar-success
+			</div>
+			<div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="20" style="width:20%">
+			progress-bar progress-bar-warning
+			</div>
+			<div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="25" style="width:25%">
+			progress-bar progress-bar-danger
+			</div>
+		</div>
+<hr>
+	<p><h2><span class="glyphicon glyphicon-bookmark"></span> Pagination:</h2></p>
+	<p><b>.pagination &nbsp; .pagination-lg</b></p>
+	 <ul class="pagination pagination-lg">
+	  <li><a href="#">1</a></li>
+	  <li><a href="#">2</a></li>
+	  <li class="active"><a href="#">3 (.active)</a></li>
+	  <li><a href="#">4</a></li>
+	  <li class="disabled"><a href="#">5 (.disabled)</a></li>
+	</ul>
+	<p><b>.pagination &nbsp; .pagination-sm</b></p>
+	<ul class="pagination pagination-sm">
+	  <li><a href="#">1</a></li>
+	  <li><a href="#">2</a></li>
+	  <li><a href="#">3</a></li>
+	  <li><a href="#">4</a></li>
+	  <li><a href="#">5</a></li>
+	</ul>
+	<p><b>.breadcrumb</b></p>
+	<ul class="breadcrumb">
+	  <li><a href="#">Home</a></li>
+	  <li><a href="#">Private</a></li>
+	  <li><a href="#">Pictures</a></li>
+	  <li class="active">Vacation (.active)</li>
+	</ul>
+<hr>
+	<p><h2><span class="glyphicon glyphicon-bookmark"></span> Pager:</h2></p>
+	<p><b>.pager</b></p>
+	<ul class="pager">
+		<li><a href="#">&lt</a></li>
+		<li><a href="#">&gt</a></li>
+		<li class="previous"><a href="#">Previous (.previous)</a></li>
+		<li class="next"><a href="#">Next (.next)</a></li>
+	</ul>
+<hr>
+	<p><h2><span class="glyphicon glyphicon-bookmark"></span> List Groups:</h2></p>
+	<p><b>.list-group</b></p>
+	<div class="list-group">
+		<a href="#" class="list-group-item active">.list-group-item .active</a>
+		<a href="#" class="list-group-item disabled">.list-group-item .disabled</a>
+		<a href="#" class="list-group-item">
+			<h4 class="list-group-item-heading">.list-group-item .list-group-item-heading</h4>
+			<p class="list-group-item-text">.list-group-item-text</p>
+		</a>
+	</div>
+	<ul class="list-group">
+		<li class="list-group-item list-group-item-success">.list-group-item .list-group-item-success</li>
+		<li class="list-group-item list-group-item-info">.list-group-item .list-group-item-info</li>
+		<li class="list-group-item list-group-item-warning">.list-group-item .list-group-item-warning</li>
+		<li class="list-group-item list-group-item-danger">.list-group-item .list-group-item-danger</li>
+	</ul>
+	
+<hr>
+	<p><h2><span class="glyphicon glyphicon-bookmark"></span> Panels:</h2>
+		</p>
+	
+	
+<hr>
+	<p><h2><span class="glyphicon glyphicon-bookmark"></span> Dropdowns:</h2></p>
+
+		
+		
+		
+		
 <hr>
     <footer>
         <h1>The End</h1>
