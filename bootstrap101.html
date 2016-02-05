@@ -9,6 +9,7 @@
   <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
   <style>
   .col {border: 1px dotted silver; text-align: center;}
+  p {margin-top: 1.25em;}
   </style>
 </head>
 <body>
@@ -18,14 +19,8 @@
 	<p><b>&ltdiv class="container-fluid"&gt</b> : full width container</p>
 <hr>
 	<p><h3>12 Column Grid System Classes:</h3>
-	<b>.row &nbsp; .col-xx-#</b></p>
-	Where xx = <br />
-	<ul>
-		<li>xs (for phones)</li>
-		<li>sm (for tablets)</li>
-		<li>md (for desktops)</li>
-		<li>lg (for larger desktops)</li>
-	</ul>
+            <b>.row &nbsp; .col-xx-#</b><br />
+	Where xx = xs (for phones), sm (for tablets), md (for desktops), lg (for larger desktops)</p>
 	<p>Examples: <i>(12, 6, 4, 3, 2 and 1 columns of the same width)</i></p>
 	<div class="row">
 	  <div class="col-sm-1 col">.col-sm-1</div>
@@ -85,27 +80,26 @@
 	</div><br />
 <hr>
 	<p><h3>Typography Classes:</h3>
-	<b><span class="text-primary">.text-primary</span> &nbsp; <span class="text-success">.text-success</span> &nbsp; <span class="text-info">.text-info</span> &nbsp; <span class="text-warning">.text-warning</span> &nbsp; <span class="text-danger">.text-danger</span> &nbsp; <span class="text-muted">.text-muted</span></b></p>
-	<b><span class="bg-primary">.bg-primary</span> &nbsp; <span class="bg-success">.bg-success</span> &nbsp; <span class="bg-info">.bg-info</span> &nbsp; <span class="bg-warning">.bg-warning</span> &nbsp; <span class="bg-danger">.bg-danger</span></b></p>
-	<b>.blockquote-reverse</b>
+            <b><span class="text-primary">.text-primary</span> &nbsp; <span class="text-success">.text-success</span> &nbsp; <span class="text-info">.text-info</span> &nbsp; <span class="text-warning">.text-warning</span> &nbsp; <span class="text-danger">.text-danger</span> &nbsp; <span class="text-muted">.text-muted</span></b></p>
+            <b><span class="bg-primary">.bg-primary</span> &nbsp; <span class="bg-success">.bg-success</span> &nbsp; <span class="bg-info">.bg-info</span> &nbsp; <span class="bg-warning">.bg-warning</span> &nbsp; <span class="bg-danger">.bg-danger</span></b></p>
 	  <p>The <b>&ltsmall&gt</b> element is used to create a lighter, secondary text in any heading:</p>       
 	  <h4>h4 heading <small>secondary text</small></h4>
 	  <h5>h5 heading <small>secondary text</small></h5>
 	  <h6>h6 heading <small>secondary text</small></h6>
 	
 	<p>Use the <b>&ltmark&gt</b> element to <mark>highlight</mark> text.</p>
-	<p>Use abbr thus: The <abbr title="World Health Organization">WHO</abbr> was founded in 1948.</p>
-	<p>The blockquote element is used to present content from another source:</p>
+	<p>Use <b>&ltabbr&gt</b> thus: The <abbr title="World Health Organization">WHO</abbr> was founded in 1948.</p>
+	<p>The <b>&ltblockquote&gt</b> element is used to present content from another source:</p>
 		<blockquote>
 		<p>I have a dream that one day this nation will rise up and live out the true meaning of its creed: "We hold these truths to be self-evident, that all men are created equal."</p>
 		<footer>Martin Luther King, Jr.</footer>
 		</blockquote>
-	<p>To show the quote on the right use the class <b>.blockquote-reverse</b>:</p>
+	<p><b>.blockquote-reverse</b></p>
 		<blockquote class="blockquote-reverse">
 		<p>I have a dream that one day on the red hills of Georgia, the sons of former slaves and the sons of former slave owners will be able to sit down together at the table of brotherhood.</p>
 		<footer>Martin Luther King, Jr.</footer>
 		</blockquote>
-	<p>The <b>&ltdl&gt</b> element indicates a description list:</p>
+	<p>The <b>&ltdl&gt</b> and <b>&ltdd&gt</b>elements indicates a description list and description detail:</p>
 		<dl>
 			<dt>Coffee</dt>
 			<dd>- black hot drink</dd>
@@ -116,16 +110,14 @@
 		<p>The following HTML elements: <code>span</code>, <code>section</code>, and <code>div</code> defines a section in a document.</p>
 	<p>For multiple lines of code, use the <b>&ltpre&gt</b> element:</p>
 		<pre>
-		Text in a pre element
-		is displayed in a fixed-width
-		font, and it preserves
-		both      spaces and
+		Text in a pre element is displayed in a fixed-width
+		font, and it preserves both      spaces and
 		line breaks.</pre>
 	<p>To indicate input that is typically entered via the keyboard, use the <b>&ltkbd&gt</b> element:</p>
 		<p>Use <kbd>ctrl + p</kbd> to open the Print dialog box.</p>
 <hr>
 	<p><h3>Table Classes:</h3>
-	<b>.table &nbsp; .table-striped &nbsp; .table-bordered  &nbsp; .table-hover &nbsp; .table-condensed &nbsp; .table-responsive</b><br /></p>
+            <b>.table &nbsp; .table-striped &nbsp; .table-bordered  &nbsp; .table-hover &nbsp; .table-condensed &nbsp; .table-responsive</b><br /></p>
 	<div class="table-responsive">  
 	  <table class="table table-hover">
 		<thead>
@@ -160,24 +152,23 @@
 	</div>
 <hr>
 	<p><h3>Image Classes:</h3>
-	<b>.img-rounded &nbsp; .img-circle &nbsp; .img-thumbnail &nbsp; .img-responsive</b><br />
-	<b>.embed-responsive-item &nbsp; .embed-responsive-16by9 &nbsp; .embed-responsive-4by3</b></p>
+            <b>.embed-responsive-item &nbsp; .embed-responsive-16by9 &nbsp; .embed-responsive-4by3</b></p>
 	 <div class="row">
 	  <div class="col-md-4">
 		<a href="http://www.w3schools.com/bootstrap/pulpitrock.jpg" class="thumbnail">
-		  <p>Rouned Corners</p>
+		  <p>.img-thumbnail &nbsp; .img-rounded</p>
 		  <img class="img-rounded" src="http://www.w3schools.com/bootstrap/pulpitrock.jpg" alt="Pulpit Rock" style="width:150px;height:150px">
 		</a>
 	  </div>
 	  <div class="col-md-4">
 		<a href="http://www.w3schools.com/bootstrap/moustiers-sainte-marie.jpg" class="thumbnail">
-		  <p>Circle</p>
+		  <p>.img-thumbnail &nbsp; .img-circle</p>
 		  <img class="img-circle" src="http://www.w3schools.com/bootstrap/moustiers-sainte-marie.jpg" alt="Moustiers Sainte Marie" style="width:150px;height:150px">
 		</a>
 	  </div>
 	  <div class="col-md-4">
 		<a href="http://www.w3schools.com/bootstrap/cinqueterre.jpg" class="thumbnail">
-		  <p>Thumbnail</p>
+		  <p>.img-thumbnail &nbsp; .img-responsive</p>
 		  <img class="img-responsive" src="http://www.w3schools.com/bootstrap/cinqueterre.jpg" alt="Cinque Terre" style="width:150px;height:150px">
 		</a>
 	  </div>
@@ -187,7 +178,7 @@
 		<iframe class="embed-responsive-item" src="http://www.youtube.com/embed/mTdEu3BtNTI"></iframe>
 	  </div>
 <hr>
-	<p><h3>Jumbotron Classes:</h3>
+	<p><h3>Jumbotron Classes:</h3></p>
 	<div class="jumbotron">
 		<h1>.jumbotron</h1>      
 		<p>This is some text.</p>
@@ -198,12 +189,12 @@
 	  <p>This is some text.</p>      
 	  <p>This is another text.</p> 
 <hr>
-	<p><h3>Wells Classes:</h3>
+	<p><h3>Wells Classes:</h3></p>
 	<div class="well well-sm">.well &nbsp; .well-sm</div>
 	<div class="well">.well</div>
 	<div class="well well-lg">.well &nbsp; .well-lg</div>
 <hr>
-	<p><h3>Alert Classes:</h3>
+	<p><h3>Alert Classes:</h3></p>
 	  <div class="alert alert-success fade in">
 		<a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
 		<strong>Success</strong> &nbsp; .close &nbsp; .alert &nbsp; .fade &nbsp; .in &nbsp; .alert-success
@@ -222,19 +213,70 @@
 	  </div>
 <hr>
 	<p><h3>Button Classes:</h3>
-		<button type="button" class="btn btn-default btn-lg">btn-default [btn-lg]</button>
-		<button type="button" class="btn btn-primary btn-md">btn-primary [btn-md]</button>
-		<button type="button" class="btn btn-success btn-sm">btn-success [btn-sm]</button>
-		<button type="button" class="btn btn-info btn-xs">btn-info [btn-xs]</button>
-		<button type="button" class="btn btn-warning">btn-warning</button>
-		<button type="button" class="btn btn-danger">btn-danger</button>
-		<button type="button" class="btn btn-link">btn-link</button> 
-	  
-	  
-	  
-	  
-	  
-	  
+            <b>.btn-group</b></p>
+		<button type="button" class="btn btn-default btn-lg">.btn-default [.btn-lg]</button>
+		<button type="button" class="btn btn-primary btn-md">.btn-primary [.btn-md]</button>
+		<button type="button" class="btn btn-success btn-sm">.btn-success [.btn-sm]</button>
+		<button type="button" class="btn btn-info btn-xs">.btn-info [.btn-xs]</button>
+		<button type="button" class="btn btn-warning">.btn-warning</button>
+		<button type="button" class="btn btn-danger">.btn-danger</button>
+		<button type="button" class="btn btn-link">.btn-link</button>
+        <p>
+            <b>.btn-group-lg</b></p>
+            <div class="btn-group btn-group-lg">
+                <button type="button" class="btn btn-primary">.btn .btn-primary</button>
+                <button type="button" class="btn btn-primary">.btn .btn-primary</button>
+                <button type="button" class="btn btn-primary">.btn .btn-primary</button>
+            </div>
+	<p>
+            <b>.btn-group-vertical</b></p>
+            <div class="btn-group btn-group-vertical">
+                <button type="button" class="btn btn-primary">.btn .btn-primary</button>
+                <button type="button" class="btn btn-primary">.btn .btn-primary</button>
+                <button type="button" class="btn btn-primary">.btn .btn-primary</button>
+          </div>
+	<p>
+            <b>.btn-group-justified</b></p>
+            <div class="btn-group btn-group-justified">
+                <a href="#" class="btn btn-primary">.btn .btn-primary</a>
+                <a href="#" class="btn btn-primary">.btn .btn-primary</a>
+                <a href="#" class="btn btn-primary">.btn .btn-primary</a>
+          </div>
+	<p>
+            <b>.dropdown-toggle &nbsp; data-toggle="dropdown" &nbsp; .caret &nbsp; .dropdown-menu &nbsp; role="menu"</b></p>
+            <div class="btn-group">
+                <button type="button" class="btn btn-primary">.btn .btn-primary</button>
+                <button type="button" class="btn btn-primary">.btn .btn-primary</button>
+                <div class="btn-group">
+                  <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+                    .btn .btn-primary .dropdown-toggle data-toggle="dropdown" .caret<span class="caret"></span></button>
+                  <ul class="dropdown-menu" role="menu">
+                    <li><a href="#">.dropdown-menu role="menu"</a></li>
+                    <li><a href="#">.dropdown-menu role="menu"</a></li>
+                  </ul>
+                </div>
+            </div>
+        </p>
+        <p>
+            <div class="btn-group">
+                <button type="button" class="btn btn-primary">.btn .btn-primary</button>
+                <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+                  <span class="caret"></span>
+                </button>
+                <ul class="dropdown-menu" role="menu">
+                  <li><a href="#">.dropdown-menu role="menu"</a></li>
+                  <li><a href="#">.dropdown-menu role="menu"</a></li>
+                </ul>
+            </div>
+        </p>
+<hr>
+	<p><h3>Glyphicon Classes:</h3></p>
+        
+        
+        
+    <footer>
+        <h1>The End</h1>
+    </footer>
 </div>
 </body>
 </html>
